@@ -11,6 +11,8 @@
   </ion-navbar>
 
 </ion-header>
+
+
 <ion-content padding>
   <div class="logo">
     <ion-img width="122" height="122" src="assets/images/logo.png"></ion-img>
@@ -30,6 +32,6 @@
     <button ion-button block>Sign In</button>
   </form>
   <div class="link">
-    <p>Don&#39;t have an account?&nbsp;<strong>Sign up</strong></p>
+    <p>Don&#39;t have an account?&nbsp;<strong (click)="openSignupPage()">Sign up</strong></p>
   </div>
 </ion-content>
