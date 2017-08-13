@@ -24,6 +24,11 @@
     background-image: url('../assets/images/nav_icon_home.png');
     width: 25px;
     height: 25px;
+  }
+  .icon.icon-ios {
     margin-right: 15px;
+  }
+  .bar-button-default-ios {
+    color: $color-trans-white;
   }
 }
