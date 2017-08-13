@@ -1,0 +1,38 @@
+.tabs-ios .tab-button .tab-button-icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 22px 22px;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon.ion-ios-home-icon {
+  background-image: url('../assets/images/tab_icon_home_active.png');
+}
+.tabs-ios .tab-button[aria-selected=false] .tab-button-icon.ion-ios-home-icon-outline {
+  background-image: url('../assets/images/tab_icon_home.png');
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon.ion-ios-account-icon {
+  background-image: url('../assets/images/tab_icon_account_active.png');
+  background-size: 22px 25px;
+}
+.tabs-ios .tab-button[aria-selected=false] .tab-button-icon.ion-ios-account-icon-outline {
+  background-image: url('../assets/images/tab_icon_account.png');
+  background-size: 22px 25px;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon.ion-ios-transactions-icon {
+  background-image: url('../assets/images/tab_icon_transactions_active.png');
+  background-size: 23px 23px;
+}
+.tabs-ios .tab-button[aria-selected=false] .tab-button-icon.ion-ios-transactions-icon-outline {
+  background-image: url('../assets/images/tab_icon_transactions.png');
+  background-size: 23px 23px;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon.ion-ios-pay-icon {
+  background-image: url('../assets/images/tab_icon_pay_active.png');
+  background-size: 27px 22px;
+}
+.tabs-ios .tab-button[aria-selected=false] .tab-button-icon.ion-ios-pay-icon-outline {
+  background-image: url('../assets/images/tab_icon_pay.png');
+  background-size: 27px 22px;
+}
+.tabs-ios .tabbar {
+  background: #f1f1f1;
+}

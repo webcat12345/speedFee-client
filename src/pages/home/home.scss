@@ -1,3 +1,56 @@
 page-home {
-
+  .scroll-content {
+    background-color: $color-bg-color;
+  }
+  .home-list {
+    padding: 20px 0 10px;
+    text-align: center;
+    border-bottom: 2px solid rgba(159, 167, 169, 0.29);
+    box-shadow: 0 4px 17px #ccc;
+    &.money-exchange-section {
+      background-color: $color-sec-light-blue;
+      border-bottom: 1px solid rgba(146, 177, 188, 0.26);
+      box-shadow: 0 1px 9px rgba(121, 121, 121, 0.45);
+      position: relative;
+      z-index: auto;
+      &:hover {
+        position: relative;
+        z-index: auto;
+      }
+    }
+    &.money-transfer-section {
+      background-color: $color-third-light-blue;
+    }
+    h6.title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      font-family: 'MYRIADPROREGULAR';
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      text-shadow: 2px 2px rgba(170, 168, 168, 0.31);
+      margin-top: 0;
+    }
+    ion-img {
+      background-color: transparent;
+    }
+  }
+  .home-icons {
+    margin-top: 70px;
+    .title {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: $color-grey;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+  .col {
+    text-align: center;
+    .circle-label {
+      color: $color-grey;
+      font-weight: 600;
+    }
+  }
 }
