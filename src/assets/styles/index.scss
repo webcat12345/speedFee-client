@@ -1,0 +1,29 @@
+@import "colors";
+@import "auth";
+@import "tab";
+@import "navigation";
+@import "transactions";
+@import "cart";
+@import "checkout_form";
+@import "payment";
+@import "settings";
+@import "icons";
+
+h1, h2, h3, h4, h5, h6, p, span, ion-label {
+  font-family: 'MYRIADPROREGULAR';
+}
+
+.button-ios {
+  font-family: 'MYRIADPROREGULAR';
+  background-color: $color-main-light-blue;
+}
+
+.button-outline-ios {
+  border-color: $color-main-light-blue;
+  color: $color-grey;
+  background-color: transparent;
+}
+
+.scroll-content {
+  background-color: $color-bg-color;
+}

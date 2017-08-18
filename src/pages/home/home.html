@@ -1,0 +1,55 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-navigation">
+
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="nav_home"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div class="home-list money-exchange-section">
+    <h6 class="title">Money Exchange</h6>
+    <ion-img width="103" height="50" src="assets/images/img_money_exchange.png"></ion-img>
+  </div>
+  <div class="home-list money-transfer-section">
+    <h6 class="title">Money Transfer</h6>
+    <ion-img width="144" height="50" src="assets/images/img_money_transfer.png"></ion-img>
+  </div>
+  <div class="home-icons">
+    <h3 class="title">Pay Bills</h3>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div class="widget" (click)="openDetailPage('PowerPage')">
+            <ion-img width="75" height="75" src="assets/images/circle-power-img.png"></ion-img>
+            <p class="circle-label">Power</p>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="widget" (click)="openDetailPage('CablePage')">
+            <ion-img width="75" height="75" src="assets/images/circle-cable-img.png"></ion-img>
+            <p class="circle-label">Cable</p>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="widget" (click)="openDetailPage('AirtimePage')">
+            <ion-img width="75" height="75" src="assets/images/circle-airtime-img.png"></ion-img>
+            <p class="circle-label">Airtime</p>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

@@ -1,0 +1,100 @@
+<!--
+  Generated template for the CablePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-navigation">
+
+  <ion-navbar>
+    <ion-title>Cable</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="nav_home"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form class="checkout-form cable-form">
+    <ion-list class="checkout-form-layout-list">
+      <ion-item class="checkout-form-element">
+        <ion-label>Select Cable Provider</ion-label>
+        <ion-select [(ngModel)]="carrier" name="carrier">
+          <ion-option value="nes">NES</ion-option>
+          <ion-option value="n64">Nintendo64</ion-option>
+          <ion-option value="ps">PlayStation</ion-option>
+          <ion-option value="genesis">Sega Genesis</ion-option>
+          <ion-option value="saturn">Sega Saturn</ion-option>
+          <ion-option value="snes">SNES</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="checkout-form-element">
+        <ion-label>Select</ion-label>
+        <ion-select [(ngModel)]="carrier" name="carrier">
+          <ion-option value="nes">NES</ion-option>
+          <ion-option value="n64">Nintendo64</ion-option>
+          <ion-option value="ps">PlayStation</ion-option>
+          <ion-option value="genesis">Sega Genesis</ion-option>
+          <ion-option value="saturn">Sega Saturn</ion-option>
+          <ion-option value="snes">SNES</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="checkout-form-element">
+        <ion-icon name="ios-card" item-start class="placeholder-icon"></ion-icon>
+        <ion-input placeholder="Undefined smart card no" type="text" value=""></ion-input>
+      </ion-item>
+
+      <ion-item class="checkout-form-element">
+        <ion-label>Email</ion-label>
+        <ion-icon name="ios-mail-outline" item-start class="placeholder-icon"></ion-icon>
+        <ion-select [(ngModel)]="carrier" name="carrier">
+          <ion-option value="nes">Dollars</ion-option>
+          <ion-option value="n64">Euro</ion-option>
+          <ion-option value="ps">Wen</ion-option>
+          <ion-option value="genesis">ASD</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="checkout-form-element">
+        <ion-icon name="ios-phone-portrait" item-start class="placeholder-icon"></ion-icon>
+        <ion-input placeholder="Mobile no" type="text" value=""></ion-input>
+      </ion-item>
+
+      <ion-item class="checkout-form-element">
+        <ion-input placeholder="Amount(Naira)" type="text" value=""></ion-input>
+      </ion-item>
+
+      <ion-item class="checkout-form-element">
+        <ion-label>Currency</ion-label>
+        <ion-select [(ngModel)]="carrier" name="carrier">
+          <ion-option value="nes">Dollars</ion-option>
+          <ion-option value="n64">Euro</ion-option>
+          <ion-option value="ps">Wen</ion-option>
+          <ion-option value="genesis">ASD</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    <div class="checkout-overview">
+      <p>Total Amount in Naria is: 0</p>
+      <p>The Amount in dollars is: 0</p>
+      <p>Service charges are: </p>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <button class="checkout-overview-btn" ion-button outline (click)="navCtrl.push('CartPage')">+ Add to cart</button>
+          </ion-col>
+          <ion-col>
+            <button class="checkout-overview-btn" ion-button (click)="navCtrl.push('CartPage')">Checkout</button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </form>
+</ion-content>

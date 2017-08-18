@@ -1,0 +1,33 @@
+.main-navigation {
+  box-shadow: 0 0 11px 1px $color-navigation-black-shadow;
+  .toolbar-ios {
+    height: 57px;
+  }
+  .toolbar-background-ios {
+    background-color: $color-main-light-blue;
+  }
+  &.header-ios .toolbar-ios:last-child .toolbar-background-ios {
+    border: none;
+  }
+  .toolbar-title {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'MYRIADPROREGULAR';
+    margin-top: 5px;
+  }
+  .icon.icon-ios.ion-ios-nav_home {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 25px 19px;
+    background-image: url('../assets/images/nav_icon_home.png');
+    width: 25px;
+    height: 25px;
+  }
+  .icon.icon-ios {
+    margin-right: 15px;
+  }
+  .bar-button-default-ios {
+    color: white;
+  }
+}
