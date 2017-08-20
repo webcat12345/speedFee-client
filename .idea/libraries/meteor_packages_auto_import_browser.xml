@@ -136,7 +136,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.10/web.browser/min-heap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-runtime/1.0.1/web.browser/babel-runtime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.6/web.browser/id.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/barbatus_typescript-runtime/1.0.2/web.browser/typescript-helpers.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ejson/1.0.13/web.browser/stringify.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ejson/1.0.13/web.browser/ejson.js" />
         <item url="file://$USER_HOME$/.meteor/packages/diff-sequence/1.0.7/web.browser/diff.js" />
@@ -285,7 +284,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.10/web.browser/min-heap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-runtime/1.0.1/web.browser/babel-runtime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.6/web.browser/id.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/barbatus_typescript-runtime/1.0.2/web.browser/typescript-helpers.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ejson/1.0.13/web.browser/stringify.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ejson/1.0.13/web.browser/ejson.js" />
       <root url="file://$USER_HOME$/.meteor/packages/diff-sequence/1.0.7/web.browser/diff.js" />
